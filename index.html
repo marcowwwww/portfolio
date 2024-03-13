@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portpolio</title>
+
+    <!-- link fons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- ====================== Style Switcher ======================== -->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme Colors</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!-- ====================== HEADER ========================= -->
+        <header class="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">Marcow</a>
+
+                <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#educations" class="nav__link ">Educations & Hobi</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link ">Services</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link ">Skills</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link ">Contact</a>
+                        </li>
+                </ul>
+            </nav>
+        </header>
+
+    <!-- ====================== HOME ======================== -->
+
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__small">Hello</span>
+                    <h1 class="home__title"><span>I'm</span>Andika Zaldi Syarif  <br>
+                     a <span>UI/UX Designer</span>
+                    </h1>
+
+                    <p class="home__description">
+                        I am a student at Bumi Gora University, I am still in  
+                        my first semester, and want to become a front end
+                    </p>
+
+                    <div class="home_btns">
+                        <a href="#contact" class="btn">Hire Me</a>
+                        <a href="#portfolio" class="btn btn--transparent">Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="home__img-wrapper">
+                    <img src="img/halaman1.1.png" alt="" class="home__img">
+                </div>
+            </div>
+        </section>
+
+    <!-- ====================== ABOUT ======================== -->
+     <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__img-wrapper">
+                <img src="img/about.jpg" alt="" class="about__img">
+                <img src="img/about.jpg" alt="" class="about__img">
+                <img src="img/about.jpg" alt="" class="about__img">
+                <img src="img/about.jpg" alt="" class="about__img">
+            </div>
+
+            <div class="about__content">
+                <h2 class="section__title" data-title="Who am i?">
+                    About me
+            </h2>
+
+            <p class="about__description">I am a student at Bumi Gora University, majoring in computer science, I am currently in my first semester, I want to study the language used by front end people so that I can become a front end person in the field of web programming.
+            </p>
+
+            <ul class="about__data grid">
+
+                <li class="data__item">
+                    <h3 class="data__title">Name:</h3>
+                    <span class="data__description">Andika Zaldi Syarif</span>
+                </li>
+
+                <li class="data__item">
+                    <h3 class="data__title">Age:</h3>
+                    <span class="data__description">17 Years</span>
+                </li>
+
+                <li class="data__item">
+                    <h3 class="data__title">Form:</h3>
+                    <span class="data__description">Sisik,Kec.Pringgarata,Loteng</span>
+                </li>
+
+                <li class="data__item">
+                    <h3 class="data__title">Email:</h3>
+                    <span class="data__description about__link">andikazsyarif06@gmail.com</span>
+                </li> 
+            </ul>
+
+            <div class="about__bottom">
+                <a href="" class="btn">Download Cv</a>
+
+                <div class="about__social-links">
+                    <a href="" class="about__social-link"></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="about__social-links">
+                    <a href="" class="about__social-link"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+                <div class="about__social-links">
+                    <a href="" class="about__social-link"></a>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+
+                <div class="about__social-links">
+                    <a href="" class="about__social-link"></a>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+
+            </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- ====================== Education & Skilss ======================== -->
+    <section class="qualification section" id="educations">
+        <h2 class="section__title title-center" data-title="My Educations">
+            Hoby
+        </h2>
+
+        <div class="resume__container container grid">
+            <!-- grup Educations -->
+            <div class="resume__group">
+                <h3 class="resume__heading">Educations</h3>
+
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Program Pendidikan Khusus</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Jurusan Ipa</h3>
+                                <span class="resume__date">2017 - 2022</span>
+                            </div>
+
+                            <p class="resume__description">I once boarded at an Islamic boarding school,at special aducation program islamic teacher training college
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">MAN 2 Lombok Tengah</h3>
+                            <span class="resume__icon">-</span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Jurusan Ipa</h3>
+                                <span class="resume__date">2022 - 2023</span>
+                            </div>
+
+                            <p class="resume__description">I am a graduate of Madrasah Aliyah Dua Central Lombok, class of 2020 - 2023
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Bumi Gora University</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Department of Computer Science</h3>
+                                <span class="resume__date">2023 - 2027</span>
+                            </div>
+
+                            <p class="resume__description">I study at Bumi Gora University, and currently I am taking a Bachelor's degree in computer science, I took this major because my hobby has been playing with laptops.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- penutup grub Educations -->
+
+            <!-- pembuka grup skills -->
+            <div class="resume__group">
+                <h3 class="resume__heading">Hoby</h3>
+
+                <!-- Pembuka Skills Playing Futsal -->
+
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Playing futsal</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Goal Kipper</h3>
+                                <span class="resume__date">2022 - 2024</span>
+                            </div>
+
+                            <p class="resume__description">I have the Hoby of playing futsal as a goalkeeper, from two thousand two until now
+                            </p>
+                        </div>
+                    </div>
+
+                         <!-- Penutup Skills Playing Futsal -->
+
+                         <!-- Pembuka Skilss Photo Graper -->
+
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Photo Grapher</h3>
+                            <span class="resume__icon">-</span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Photo Grapher</h3>
+                                <span class="resume__date">2022 - 2023</span>
+                            </div>
+
+                            <p class="resume__description">I have Hoby in the field of photography, I can have photography skills as a hobby
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Pembuka Skilss Photo Graper -->
+
+                    <!-- Pembuka web programer -->
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Ngoding</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Fron End</h3>
+                                <span class="resume__date">2023 - 2024</span>
+                            </div>
+
+                            <p class="resume__description">I have a hobby of coding because I want to be a web programmer, coding has become one of my hobbies since two thousand and twenty two
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Penutup web programer -->
+
+                </div>
+            </div>
+            <!-- penutup grup skills -->
+        </div>
+    </section>
+
+    <!-- ====================== Services ======================== -->
+    <sections class="hobby__section" id="services">
+        <h2 class="section__title title-center" data-title="Services">
+            My Services 
+        </h2>
+
+        <div class="hoby__container container grid">
+            <!-- services ui ux-->
+            <div class="hoby__item">
+                <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                <h3 class="hoby__title">UI/UX Designl</h3>
+                <p class="hoby__description">
+                    Services with more than 3 yers of experience. Providing quality
+                   work to clients and companies.
+                </p>
+
+                <span class="hoby__no">01</span>
+            </div>
+            <!-- services ui ux -->
+
+            <!-- services Development -->
+            <div class="hoby__item">
+                <i class="fa-solid fa-laptop services__icon"></i>
+
+                <h3 class="hoby__title">Web Development</h3>
+                <p class="hoby__description">
+                    Services with more than 3 yers of experience. Providing quality
+                    work to clients and companies.
+                </p>
+
+                <span class="hoby__no">02</span>
+            </div>
+            <!-- services Developmentr -->
+
+            <!-- Research & Analysis -->
+            <div class="hoby__item">
+                <i class="fa-solid fa-chart-area services__icon"></i>
+
+                <h3 class="hoby__title">Research & Analysis</h3>
+                <p class="hoby__description">
+                    Services with more than 3 yers of experience. Providing quality
+                   work to clients and companies.
+                </p>
+
+                <span class="hoby__no">03</span>
+            </div>
+             <!-- Research & Analysis -->
+
+            <!-- Ui/Ux Desaind -->
+            <div class="hoby__item">
+                <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                <h3 class="hoby__title">UI/UX Design</h3>
+                <p class="hoby__description">
+                   Services with more than 3 yers of experience. Providing quality
+                   work to clients and companies.
+                </p>
+
+                <span class="hoby__no">04</span>
+            </div>
+            <!-- Ui/Ux Desaind -->    
+
+            <!-- Web Development -->
+             <div class="hoby__item">
+                <i class="fa-solid fa-laptop services__icon"></i>
+
+                <h3 class="hoby__title">Web Development</h3>
+                <p class="hoby__description">
+                    Services with more than 3 yers of experience. Providing quality
+                    work to clients and companies.
+                </p>
+
+                <span class="hoby__no">05</span>
+            </div>
+            <!-- Web Development -->
+
+            <!-- Research & Analysis -->
+            <div class="hoby__item">
+                <i class="fa-solid fa-chart-area services__icon"></i>
+
+                <h3 class="hoby__title">Research & Analysis</h3>
+                <p class="hoby__description">
+                    Services with more than 3 yers of experience. Providing quality
+                   work to clients and companies.
+                </p>
+
+                <span class="hoby__no">06</span>
+            </div>
+             <!-- Research & Analysis -->
+
+        </div>
+    </sections>
+
+     <!-- ====================== Skilss ======================== -->
+    <section class="skils section" id="skills">
+        <h2 class="section__title title-center" data-title="My Talent ">
+            Profesional Skills
+         </h2>
+
+         <div class="skills__container container grid">
+            <div class="skilss__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__no">70%</span>
+                </div>
+
+                <p class="skills__description">
+                    My skills in HTML are not yet very good at mastering the language
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skilss__percentage" style="width: 70%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skilss__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__no">80%</span>
+                </div>
+
+                <p class="skills__description">
+                    My skills in Css are not yet very good at mastering the language
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skilss__percentage " style="width: 80%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skilss__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">PYTHON</h3>
+                    <span class="skills__no">80%</span>
+                </div>
+
+                <p class="skills__description">
+                    My skills in PYTHON are not yet very good at mastering the language
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skilss__percentage" style="width:80%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skilss__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">DART</h3>
+                    <span class="skills__no">60%</span>
+                </div>
+
+                <p class="skills__description">
+                    My skills in Dart are not yet very good at mastering the language
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skilss__percentage" style="width:60%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skilss__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">JAVA SCRIPT</h3>
+                    <span class="skills__no"> 90%</span>
+                </div>
+
+                <p class="skills__description">
+                    My skills in Java Script very good at mastering the language
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skilss__percentage" style="width: 90%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skilss__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Ruby</h3>
+                    <span class="skills__no">85%</span>
+                </div>
+
+                <p class="skills__description">
+                    My skills in Ruby very good at mastering the language
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skilss__percentage" style="width: 85%">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <!-- ====================== CONTACT ======================== -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in touch">
+            Contact Me
+         </h2>
+
+         <div class="contact__container container grid">
+            <div class="contact__details">
+                <div class="contact__item">
+                    <i class="fa-solid fa-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call Us</h3>
+                        <span class="contact__data">081803012659</span>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <i class="fa-solid fa-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Email Us</h3>
+                        <span class="contact__data">andikazsyarif06@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Address</h3>
+                        <span class="contact__data">Dusun Jabon,Desa Sisik,Kec.Pringgarat,Lombok Tengah</span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="contact__form">
+                <div class="form__grup">
+                    <div class="form__input">
+                        <input type="text" placeholder="nama" class="input__control">
+                    </div>
+
+                    <div class="form__input">
+                        <input type="email" placeholder="Email" 
+                        class="input__control"
+                        />
+                    </div>
+                </div>
+
+                <div class="form__input">
+                    <input type="text" placeholder="Subject" class="input__control"/>
+                </div>
+
+                <div class="form__input">
+                   <textarea 
+                   name="" 
+                   id=""
+                     placeholder="Message" 
+                     cols="30" rows="10"
+                     class="input__control textarea"
+                     ></textarea>
+                </div>
+
+                <button class="btn contact__btn">Send Message</button>
+            </form>
+         </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2024 Marcow. All Right
+                Reserved </p>
+
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-link"></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-link"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-link"></a>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-link"></a>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+        </div>
+    </footer>
+    
+
+    <!--======================= STYLE SWITCHER ======================== -->
+    
+</body>
+</html>
